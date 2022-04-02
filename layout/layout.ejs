@@ -3,6 +3,17 @@
 
 <%- partial('_partials/head') %>
 
+<style>
+  .footer{
+    /*border: solid #e5e5e5;*/
+    /*border-width: 1px 0;*/
+    /*box-sizing: border-box;*/
+    /*position: fixed;*/
+    /*bottom: 0;*/
+    width: 100%;
+    text-align: center;
+  }
+</style>
 <body>
 
 <div class="container">
@@ -21,9 +32,20 @@
       <div class="column col-2 hide-lg">
         <%- partial('_partials/toc') %>
       </div>
+
+      <div class="column footer" id="footer" style="margin-top:100px">
+        <div style="height: 10px"></div>
+<!--         <small>LinkedIn | Email</small> -->
+<!--         <div style="height: 3px"></div> -->
+        <small>&copy; 2022 Zeya Kong</small>
+        <div style="height: 10px"></div>
+      </div>
     </div>
   </div>
+
+
 </div>
+
 
 </body>
 </html>

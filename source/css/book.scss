@@ -11,7 +11,12 @@
     padding: 0 $padding-16;
   }
   
-  font-family: 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans', sans-serif;
+//   font-family: 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans', sans-serif;
+//   font-family: "Times New Roman", Times, serif;
+//   font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+//   font-family: Arial, Helvetica, sans-serif;
+//      font-family: Tahoma,Arial,"Hiragino Sans GB",simsun,sans-serif;
+     font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
 }
 
 .book-content {
@@ -36,7 +41,7 @@
 
 .home-post-excerpt {
   font-size: 14px;
-  color: #858585;
+  color: #000000;
 }
 
 // navbar (for responsive layout)
@@ -85,13 +90,16 @@
   }
 
   a:hover {
-    text-decoration: underline;
+    //text-decoration: underline;
   }
 
   h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     padding-bottom: $padding-10;
     margin-bottom: $padding-16;
+    //border-bottom: 1px solid $border-color;
+  }
+  h1 {
     border-bottom: 1px solid $border-color;
   }
 
@@ -124,7 +132,7 @@
   }
 
   p {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: $padding-10;
   }
 
@@ -195,7 +203,7 @@
   figcaption {
     text-align: center;
     font-size: $font-size-12;
-    color: rgb(40, 40, 40);
+    color: rgb(43, 40, 183);
   }
 
   img {

@@ -2,9 +2,10 @@ figure.highlight {
     margin: 24px 0;
     padding: 0;
     border-radius: 4px;
-    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 1px 1px rgba(14, 33, 51, 0.53);
     position: relative;
 	overflow: auto;
+    background-color: #f5f5f5;
 
     pre {
         font-size: 13px;
@@ -16,7 +17,7 @@ figure.highlight {
         pre {
             margin: 0;
             text-align: right;
-            color: rgb(184, 184, 184);
+            color: rgb(14, 33, 51);
             -webkit-user-select: none;
             -khtml-user-select: none;
             -moz-user-select: none;
@@ -48,7 +49,7 @@ figure.highlight {
     }
 
     figcaption {
-        background-color: #21252b;
+        background-color: #007e11;
         padding: 9px;
         font-size: 15px;
         color: white;
@@ -72,7 +73,7 @@ figure.highlight {
     }
 
     .marked {
-        background-color: #fffce8;
+        background-color: rgba(0, 0, 0, 0.99);
     }
 
     pre {
@@ -86,7 +87,7 @@ figure.highlight {
             color:#6faadb;
         }
         .comment {
-            color:#5c6370;
+            color: #5595d0;
             font-style:italic;
         }
         .tag {
@@ -98,7 +99,7 @@ figure.highlight {
         .params,
         .constant,
         .command {
-            color: #d47171;
+            color: #000000;
         }
         .built_in {
             color:#e2b35c
@@ -126,12 +127,12 @@ figure.highlight {
         .special,
         .number,
         .formula {
-            color:#83c951;
+            color: #007e11;
         }
         .keyword,
         .title,
         .css .hexcolor {
-            color:#9675c2;
+            color: 	#0000FF;
         }
         .function,
         .python .decorator,
@@ -145,7 +146,7 @@ figure.highlight {
         }
         .tag .attr,
         .javascript .function {
-            color: #c678dd;
+            color: #2b28b7;
         }
     }
 }
